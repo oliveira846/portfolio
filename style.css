@@ -31,6 +31,7 @@ header{
     display:flex;
     background-image: linear-gradient(to top, var(--cor04), black);
     border-bottom: 2px solid var(--cor01);
+    
 }
 #logo{
     font-family: var(--font-logo);
