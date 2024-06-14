@@ -123,7 +123,7 @@ article > h2 {
     text-align: center;
     margin-bottom: 30px;
 }
-article > a > img {
+aside > a > img {
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -141,14 +141,20 @@ article > a > img {
     }
     nav{
         min-width: 280px;
-        max-width: 670px;
+        max-width: 600px;
         margin: auto;
-        font-size: 0.7em;
+        font-size: 0.5em;
         margin-bottom: 20px;
     }
     #logo {
         min-width: 280px;
         max-width: 670px;
         margin: auto;
+    }
+    #info > img {
+        width: 200px;
+    }
+    aside {
+        text-align: center;
     }
 }
