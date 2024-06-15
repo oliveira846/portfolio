@@ -163,5 +163,9 @@ aside  img {
     aside{
         text-align: center;
     }
+    #info > img {
+        width: 200px;
+        height: 200px;
+    }
     
 }
