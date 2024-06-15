@@ -41,9 +41,8 @@ header{
 }
 #logo > img{
     font-size: 4em;
-    border-radius: 10px;
-    color: var(--cor06);
-    border: 3px solid var(--cor06);
+    
+    
 }
 nav{
     width: 70%;
