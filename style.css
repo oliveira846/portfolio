@@ -100,9 +100,11 @@ aside{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);   
+    font-family: var(--font-destaque);
+    color: var(--color5);
 }
 #projetostxt h1{
-    background-color: #130526;
+    background-color: black;
     padding: 30px;
     font-size: 2.5em;
     border-radius: 5px;
