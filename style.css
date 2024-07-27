@@ -118,12 +118,29 @@ aside{
     margin: auto;
     margin-top: 50px;
 }
-#projetos img{
-    width: 80%;
+.projetosedit{
+    width: 200px;
+    
+    height: 200px;
+    
     border-radius: 50%;
     margin: auto;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    background-position: center center;
+    background-size: cover;
 }
-#projetos img:hover{
+#lights{
+    background-image: url(img/lights.jpg);
+}
+#ghibli{
+    background-image: url(img/chihiro.jpg);
+}
+#sabores{
+    background-image: url(img/cake.jpg);
+}
+#projetos .projetoedit:hover{
+    border: 2px solid var(--color5);
     
 }
 #projetos a{
@@ -157,5 +174,15 @@ footer{
     }
     #position aside{
         text-align: center;
+    }
+    
+}
+@media (max-width: 650px){
+    #projetos{
+        display: block;
+        
+    }
+    .projetosedit{
+        margin-top: 30px;
     }
 }
