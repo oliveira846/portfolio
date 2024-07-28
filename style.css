@@ -130,6 +130,11 @@ aside{
     background-position: center center;
     background-size: cover;
 }
+.projetosedit:hover {
+    border: 3px solid var(--color5);
+    background-image: none;
+    background-color: #422349;
+}
 #lights{
     background-image: url(img/lights.jpg);
 }
